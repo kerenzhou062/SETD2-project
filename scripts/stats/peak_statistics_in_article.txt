@@ -1,0 +1,29 @@
+###ChIP-seq peak statistics(PeakNum)
+cell-line	shCont	shSetD2	shM14	shM3	shWTAP
+HepG2	17856	1244	34177	30764	32859
+Hela	32528	12012	23850	30584	42852
+mESCs-D0	30595	2961
+mEFs	8705	4
+
+
+###m6A-seq peak statistics(PeakNum)
+cell-line	shCont	shSetD2	shM14	shM3	shWTAP
+HepG2	23357	19530	19994	21578	20688
+Hela	13845	13677	9449	8135	11600
+mESCs-D0	14987	15585	NA	NA	NA
+mESCs-D6	15067	14925	NA	NA	NA
+mEFs	13439	15412	NA	NA	NA
+
+
+###protein-responsive peaks statistics (m6A-seq)
+cell-line	SETD2-responsive	METTL14-responsive	METTL3-responsive	WTAP-responsive	non-writer-responsive
+HepG2	9914	9861	6665	9306	10710
+Hela	2755	5525	7339	3957	5069
+mESCs-D0	5417	NA	NA	NA	NA
+mESCs-D6	14986	NA	NA	NA	NA
+mEFs	1795	NA	NA	NA	NA
+##H3K36me3 overlapped with m6A
+H3K36me3 overlapped with m6a(loci where H3K36me3 and m6A are both present)	6610
+hypomethylated H3K36me3 peaks in loci where H3K36me3 and m6A are both present	5872
+hypomethylated H3K36me3 peaks in loci where H3K36me3 and m6A are both present overlapped with hypomethylated m6A	2717
+hypomethylated H3K36me3 peaks in loci where H3K36me3 and m6A are both present overlapped with hypermethylated m6A	427

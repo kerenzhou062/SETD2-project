@@ -1,0 +1,75 @@
+#stats of gene level(FPKM) correlations between replicates
+#Hela control rep4 and rep5 were retrive from Hechuan, (pubmed:23453015, Niu Y, et al. Genomics Proteomics Bioinformatics 2013)
+HepG2-IP:
+sample	pairedSample	geneNum	coefficient-R	p-val
+shCont_rep1	shCont_rep2	11353	0.537762	0
+shCont_rep1	shCont_rep3	12265	0.635139	0
+shCont_rep2	shCont_rep3	11635	0.255269	1.77199e-172
+shM14_rep1	shM14_rep2	11626	0.954212	0
+shM14_rep1	shM14_rep3	11609	0.747612	0
+shM14_rep2	shM14_rep3	11507	0.740061	0
+shM3_rep1	shM3_rep2	12216	0.959069	0
+shM3_rep1	shM3_rep3	12281	0.712911	0
+shM3_rep2	shM3_rep3	12063	0.682462	0
+shSetD2_rep1	shSetD2_rep2	10968	0.966724	0
+shSetD2_rep1	shSetD2_rep3	11230	0.669396	0
+shSetD2_rep2	shSetD2_rep3	11443	0.64758	0
+shWTAP_rep1	shWTAP_rep2	12271	0.950858	0
+shWTAP_rep1	shWTAP_rep3	11893	0.650265	0
+shWTAP_rep2	shWTAP_rep3	11844	0.656277	0
+
+Hela-IP:
+sample	pairedSample	geneNum	coefficient-R	p-val
+shCont_rep1	shCont_rep2	9141	0.870645	0
+shCont_rep1	shCont_rep3	10111	0.121522	1.42329e-34
+shCont_rep2	shCont_rep3	8790	0.0920171	5.41922e-18
+shM14_rep1	shM14_rep2	11935	0.99673	0
+shM14_rep1	shM14_rep3	11041	0.11323	7.79075e-33
+shM14_rep2	shM14_rep3	11094	0.113432	4.26245e-33
+shM3_rep1	shM3_rep2	11436	0.99389	0
+shM3_rep1	shM3_rep3	10994	0.219444	5.46129e-120
+shM3_rep2	shM3_rep3	10819	0.206521	1.54191e-104
+shSetD2_rep1	shSetD2_rep2	13804	0.994443	0
+shSetD2_rep1	shSetD2_rep3	11681	0.63876	0
+shSetD2_rep2	shSetD2_rep3	11712	0.627745	0
+shWTAP_rep1	shWTAP_rep2	13437	0.998521	0
+shWTAP_rep1	shWTAP_rep3	11789	0.540436	0
+shWTAP_rep2	shWTAP_rep3	11842	0.54131	0
+
+
+
+HepG2-input:
+sample	pairedSample	geneNum	coefficient-R	p-val
+shCont_rep1	shCont_rep2	11976	0.996	0
+shCont_rep1	shCont_rep3	12221	0.703706	0
+shCont_rep2	shCont_rep3	12350	0.703745	0
+shM14_rep1	shM14_rep2	12379	0.998672	0
+shM14_rep1	shM14_rep3	12388	0.735393	0
+shM14_rep2	shM14_rep3	12240	0.722608	0
+shM3_rep1	shM3_rep2	12077	0.998233	0
+shM3_rep1	shM3_rep3	12377	0.77287	0
+shM3_rep2	shM3_rep3	12281	0.771891	0
+shSetD2_rep1	shSetD2_rep2	11638	0.997837	0
+shSetD2_rep1	shSetD2_rep3	11887	0.795589	0
+shSetD2_rep2	shSetD2_rep3	12058	0.811591	0
+shWTAP_rep1	shWTAP_rep2	12060	0.993304	0
+shWTAP_rep1	shWTAP_rep3	12354	0.808818	0
+shWTAP_rep2	shWTAP_rep3	11921	0.785157	0
+
+Hela-input:
+sample	pairedSample	geneNum	coefficient-R	p-val
+shCont_rep1	shCont_rep2	12368	0.982542	0
+shCont_rep1	shCont_rep3	12298	0.783054	0
+shCont_rep2	shCont_rep3	12220	0.704086	0
+shM14_rep1	shM14_rep2	13479	0.998167	0
+shM14_rep1	shM14_rep3	12856	0.860817	0
+shM14_rep2	shM14_rep3	12841	0.852307	0
+shM3_rep1	shM3_rep2	13202	0.985548	0
+shM3_rep1	shM3_rep3	12800	0.81707	0
+shM3_rep2	shM3_rep3	12828	0.88883	0
+shSetD2_rep1	shSetD2_rep2	13076	0.99431	0
+shSetD2_rep1	shSetD2_rep3	12589	0.86994	0
+shSetD2_rep2	shSetD2_rep3	12600	0.8918	0
+shWTAP_rep1	shWTAP_rep2	13348	0.968595	0
+shWTAP_rep1	shWTAP_rep3	13028	0.733838	0
+shWTAP_rep2	shWTAP_rep3	13121	0.851812	0

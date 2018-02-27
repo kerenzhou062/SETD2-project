@@ -1,0 +1,96 @@
+# HepG2, a=H3K36me3 peaks, b=m6A peaks
+# Number of query intervals: 17856
+# Number of db intervals: 23352
+# Number of overlaps: 11611
+# Number of possible intervals (estimated): 236879
+# phyper(11611 - 1, 17856, 236879 - 17856, 23352, lower.tail=F)
+# Contingency Table Of Counts
+#_________________________________________
+#           |  in -b       | not in -b    |
+#     in -a | 11611        | 6245         |
+# not in -a | 11741        | 207282       |
+#_________________________________________
+# p-values for fisher's exact test
+left	right	two-tail	ratio
+1	0	0	32.824
+
+# HepG2, a=H3K36me3 peaks, b=SetD2-responsive m6A peaks
+# Number of query intervals: 17856
+# Number of db intervals: 9914
+# Number of overlaps: 3964
+# Number of possible intervals (estimated): 233948
+# phyper(3964 - 1, 17856, 233948 - 17856, 9914, lower.tail=F)
+# Contingency Table Of Counts
+#_________________________________________
+#           |  in -b       | not in -b    |
+#     in -a | 3964         | 13892        |
+# not in -a | 5950         | 210142       |
+#_________________________________________
+# p-values for fisher's exact test
+left	right	two-tail	ratio
+0	1	0	10.078
+
+# HepG2, a=SetD2-responsive H3K36me3 peaks, b=SetD2-responsive m6A peaks
+# Number of query intervals: 16723
+# Number of db intervals: 9914
+# Number of overlaps: 3422
+# Number of possible intervals (estimated): 242992
+# phyper(3422 - 1, 16723, 242992 - 16723, 9914, lower.tail=F)
+# Contingency Table Of Counts
+#_________________________________________
+#           |  in -b       | not in -b    |
+#     in -a | 3422         | 13301        |
+# not in -a | 6492         | 219777       |
+#_________________________________________
+# p-values for fisher's exact test
+left	right	two-tail	ratio
+0	1	0	8.710
+
+# Hela, a=H3K36me3 peaks, b=m6A peaks
+# Number of query intervals: 32528
+# Number of db intervals: 13845
+# Number of overlaps: 9273
+# Number of possible intervals (estimated): 401508
+# phyper(9273 - 1, 32528, 401508 - 32528, 13845, lower.tail=F)
+# Contingency Table Of Counts
+#_________________________________________
+#           |  in -b       | not in -b    |
+#     in -a | 9273         | 23255        |
+# not in -a | 4572         | 364408       |
+#_________________________________________
+# p-values for fisher's exact test
+left	right	two-tail	ratio
+1	0	0	31.782
+
+# Hela, a=H3K36me3 peaks, b=SetD2-responsive m6A peaks
+# Number of query intervals: 32528
+# Number of db intervals: 2755
+# Number of overlaps: 1515
+# Number of possible intervals (estimated): 425600
+# phyper(1515 - 1, 32528, 425600 - 32528, 2755, lower.tail=F)
+# Contingency Table Of Counts
+#_________________________________________
+#           |  in -b       | not in -b    |
+#     in -a | 1515         | 31013        |
+# not in -a | 1240         | 391832       |
+#_________________________________________
+# p-values for fisher's exact test
+left	right	two-tail	ratio
+1	0	0	15.436
+
+# Hela, a=SetD2-responsive H3K36me3 peaks, b=SetD2-responsive m6A peaks
+# Number of query intervals: 21859
+# Number of db intervals: 2755
+# Number of overlaps: 856
+# Number of possible intervals (estimated): 475948
+# phyper(856 - 1, 21859, 475948 - 21859, 2755, lower.tail=F)
+# Contingency Table Of Counts
+#_________________________________________
+#           |  in -b       | not in -b    |
+#     in -a | 856          | 21003        |
+# not in -a | 1899         | 452190       |
+#_________________________________________
+# p-values for fisher's exact test
+left	right	two-tail	ratio
+0	1	0	9.705
+

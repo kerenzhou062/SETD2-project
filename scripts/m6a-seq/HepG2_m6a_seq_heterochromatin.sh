@@ -50,7 +50,7 @@ echo -e "HepG2_H3K36me3_in_house\tH3K9me3_GENCODE\t$num" >> $statsFile
 num=`bedtools intersect -a $HepG2_H3K36me3 -b $chipseq/narrowPeak_H3K27me3.bed -wa |sort|uniq| wc -l`
 echo -e "HepG2_H3K36me3_in_house\tH3K27me3_GENCODE\t$num" >> $statsFile
 
-./Rscripts/HepG2/heterochromatin_permutation_test.r
+/data/zhoukr/hhl_setd2_m6a/analysis/m6a-seq/Rscripts/HepG2/heterochromatin_permutation_test.r > /dev/null 2>&1
 
 #cd circos/heatmap
 #circos -conf heatmap.m6A_H3K9me3.conf > /dev/null 2>&1

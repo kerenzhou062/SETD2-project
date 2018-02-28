@@ -1,6 +1,12 @@
 The data processing procedure for ChIP-seq data were as listed below:
 
 ---
+## Check sequencing reads qualities ##
+The qualities of sequencing reads were checked by fastQC software:
+```bash
+fastqc fastq1 fastq2 ...
+
+```
 
 ## Map sequenceing reads to the genome ##
 All sequencing reads were aligned to the human (hg19) and mouse (mm10) genomes by using bowtie (version 1.1.2) software with following commands:
@@ -19,7 +25,7 @@ rm -f fastq.map.sam fastq.map.bam
 ```
 
 ## Peak calling ##
-We used MACS (version 1.4.2) to detect enriched H3K36me3 sites withwith the suggested parameters for peak calling of H3K36me3:
+We used MACS (version 1.4.2) to detect enriched H3K36me3 sites with the suggested parameters for peak calling of H3K36me3:
 ```bash
 # using samtools to merge replicates
 samtools merge fastq.merge.bam fastq.rep1.bam fastq.rep2.bam

@@ -1,0 +1,26 @@
+#!/bin/sh
+## shCont
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shCont_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shCont_input_rep1/shCont_input_rep1.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shCont/Hela_m6A-seq_shCont_input_rep1.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shCont_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shCont_input_rep2/shCont_input_rep2.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shCont/Hela_m6A-seq_shCont_input_rep2.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shCont_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shCont_input_rep3/shCont_input_rep3.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shCont/Hela_m6A-seq_shCont_input_rep3.sorted.bam
+
+## shSetD2
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shSetD2_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shSetD2_input_rep1/shSetD2_input_rep1.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shSetD2/Hela_m6A-seq_shSetD2_input_rep1.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shSetD2_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shSetD2_input_rep2/shSetD2_input_rep2.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shSetD2/Hela_m6A-seq_shSetD2_input_rep2.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shSetD2_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shSetD2_input_rep3/shSetD2_input_rep3.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shSetD2/Hela_m6A-seq_shSetD2_input_rep3.sorted.bam
+
+## shM14
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM14_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shM14_input_rep1/shM14_input_rep1.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM14/Hela_m6A-seq_shM14_input_rep1.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM14_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shM14_input_rep2/shM14_input_rep2.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM14/Hela_m6A-seq_shM14_input_rep2.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM14_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shM14_input_rep3/shM14_input_rep3.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM14/Hela_m6A-seq_shM14_input_rep3.sorted.bam
+
+## shM3
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM3_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shM3_input_rep1/shM3_input_rep1.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM3/Hela_m6A-seq_shM3_input_rep1.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM3_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shM3_input_rep2/shM3_input_rep2.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM3/Hela_m6A-seq_shM3_input_rep2.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM3_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shM3_input_rep3/shM3_input_rep3.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shM3/Hela_m6A-seq_shM3_input_rep3.sorted.bam
+
+## shWTAP
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shWTAP_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shWTAP_input_rep1/shWTAP_input_rep1.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shWTAP/Hela_m6A-seq_shWTAP_input_rep1.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shWTAP_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shWTAP_input_rep2/shWTAP_input_rep2.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shWTAP/Hela_m6A-seq_shWTAP_input_rep2.sorted.bam
+stringtie -e -B --rf -p 8 -G /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shWTAP_transcriptome_merge.gtf -o /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/ballgown/shWTAP_input_rep3/shWTAP_input_rep3.gtf /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/transcriptome_assembly/shWTAP/Hela_m6A-seq_shWTAP_input_rep3.sorted.bam
+

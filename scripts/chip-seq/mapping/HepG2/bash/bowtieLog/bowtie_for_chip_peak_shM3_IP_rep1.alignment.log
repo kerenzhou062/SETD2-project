@@ -1,0 +1,13 @@
+nohup: ignoring input
+HepG2_ChIP-seq_shM3_IP_rep1.fastq
+
+Time loading forward index: 00:00:02
+Time loading mirror index: 00:00:02
+End-to-end 2/3-mismatch full-index search: 00:13:47
+# reads processed: 35461420
+# reads with at least one reported alignment: 30066212 (84.79%)
+# reads that failed to align: 1748453 (4.93%)
+# reads with alignments suppressed due to -m: 3646755 (10.28%)
+Reported 30066212 alignments to 1 output stream(s)
+Time searching: 00:13:51
+Overall time: 00:13:51

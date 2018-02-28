@@ -1,0 +1,63 @@
+nohup: ignoring input
+HepG2_m6A-seq_shCont_input.fastq
+89468916 reads; of these:
+  89468916 (100.00%) were unpaired; of these:
+    15671223 (17.52%) aligned 0 times
+    53843345 (60.18%) aligned exactly 1 time
+    19954348 (22.30%) aligned >1 times
+82.48% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 56 files...
+stringtie: start assbemling transcriptome...
+
+HepG2_m6A-seq_shSetD2_input.fastq
+73809652 reads; of these:
+  73809652 (100.00%) were unpaired; of these:
+    16470474 (22.31%) aligned 0 times
+    41579121 (56.33%) aligned exactly 1 time
+    15760057 (21.35%) aligned >1 times
+77.69% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 40 files...
+stringtie: start assbemling transcriptome...
+
+HepG2_m6A-seq_shM3_input.fastq
+80588235 reads; of these:
+  80588235 (100.00%) were unpaired; of these:
+    21518874 (26.70%) aligned 0 times
+    40489162 (50.24%) aligned exactly 1 time
+    18580199 (23.06%) aligned >1 times
+73.30% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 48 files...
+stringtie: start assbemling transcriptome...
+
+HepG2_m6A-seq_shM14_input.fastq
+75498069 reads; of these:
+  75498069 (100.00%) were unpaired; of these:
+    15180660 (20.11%) aligned 0 times
+    38466638 (50.95%) aligned exactly 1 time
+    21850771 (28.94%) aligned >1 times
+79.89% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 48 files...
+stringtie: start assbemling transcriptome...
+
+HepG2_m6A-seq_shWTAP_input.fastq
+82399382 reads; of these:
+  82399382 (100.00%) were unpaired; of these:
+    20546160 (24.93%) aligned 0 times
+    43398265 (52.67%) aligned exactly 1 time
+    18454957 (22.40%) aligned >1 times
+75.07% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 48 files...
+stringtie: start assbemling transcriptome...
+
+jobs have been done.
+

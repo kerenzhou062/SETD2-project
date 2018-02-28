@@ -1,0 +1,1089 @@
+nohup: ignoring input
+\n\n\n
+HepG2_m6A-seq_shCont_IP_rep1.fastq
+
+[2017-08-06 11:01:45] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-06 11:01:45] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-06 11:01:45] Checking for Bowtie index files (genome)..
+[2017-08-06 11:01:45] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-06 11:01:45] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shCont/IP_rep1//tmp/hg19.fa
+[2017-08-06 11:04:51] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-06 11:04:54] Reading known junctions from GTF file
+[2017-08-06 11:05:41] Preparing reads
+	 left reads: min. length=50, max. length=50, 22879315 kept reads (29578 discarded)
+[2017-08-06 11:10:38] Building transcriptome data files ./shCont/IP_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-06 11:11:52] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-06 11:50:31] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-06 12:38:04] Resuming TopHat pipeline with unmapped reads
+[2017-08-06 12:38:05] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-06 12:42:39] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-06 12:43:45] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-06 12:44:47] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-06 12:51:53] Retrieving sequences for splices
+[2017-08-06 12:53:59] Indexing splices
+Building a SMALL index
+[2017-08-06 12:55:43] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-06 12:56:27] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-06 12:57:14] Joining segment hits
+[2017-08-06 13:02:21] Reporting output tracks
+-----------------------------------------------
+[2017-08-06 13:28:15] A summary of the alignment counts can be found in ./shCont/IP_rep1//align_summary.txt
+[2017-08-06 13:28:15] Run complete: 02:26:30 elapsed
+\n\n\n
+HepG2_m6A-seq_shCont_IP_rep2.fastq
+
+[2017-08-06 13:29:28] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-06 13:29:28] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-06 13:29:28] Checking for Bowtie index files (genome)..
+[2017-08-06 13:29:28] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-06 13:29:28] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shCont/IP_rep2//tmp/hg19.fa
+[2017-08-06 13:32:31] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-06 13:32:34] Reading known junctions from GTF file
+[2017-08-06 13:33:21] Preparing reads
+	 left reads: min. length=50, max. length=50, 8716825 kept reads (120806 discarded)
+[2017-08-06 13:35:12] Building transcriptome data files ./shCont/IP_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-06 13:36:22] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-06 14:11:57] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-06 14:26:23] Resuming TopHat pipeline with unmapped reads
+[2017-08-06 14:26:23] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-06 14:32:25] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-06 14:34:00] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-06 14:35:37] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-06 14:41:14] Retrieving sequences for splices
+[2017-08-06 14:43:14] Indexing splices
+Building a SMALL index
+[2017-08-06 14:44:16] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-06 14:45:16] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-06 14:46:18] Joining segment hits
+[2017-08-06 14:50:54] Reporting output tracks
+-----------------------------------------------
+[2017-08-06 15:00:04] A summary of the alignment counts can be found in ./shCont/IP_rep2//align_summary.txt
+[2017-08-06 15:00:04] Run complete: 01:30:35 elapsed
+\n\n\n
+HepG2_m6A-seq_shCont_IP_rep3.fastq
+
+[2017-08-06 15:00:25] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-06 15:00:25] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-06 15:00:25] Checking for Bowtie index files (genome)..
+[2017-08-06 15:00:25] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-06 15:00:25] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shCont/IP_rep3//tmp/hg19.fa
+[2017-08-06 15:03:28] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-06 15:03:31] Reading known junctions from GTF file
+[2017-08-06 15:04:19] Preparing reads
+	 left reads: min. length=50, max. length=50, 42829744 kept reads (16549 discarded)
+[2017-08-06 15:12:56] Building transcriptome data files ./shCont/IP_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-06 15:14:12] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-06 15:50:04] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-06 17:27:40] Resuming TopHat pipeline with unmapped reads
+[2017-08-06 17:27:41] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-06 17:35:38] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-06 17:36:45] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-06 17:37:53] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-06 17:49:19] Retrieving sequences for splices
+[2017-08-06 17:51:24] Indexing splices
+Building a SMALL index
+[2017-08-06 17:53:34] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-06 17:54:21] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-06 17:55:08] Joining segment hits
+[2017-08-06 18:00:25] Reporting output tracks
+-----------------------------------------------
+[2017-08-06 18:11:33] A summary of the alignment counts can be found in ./shCont/IP_rep3//align_summary.txt
+[2017-08-06 18:11:33] Run complete: 03:11:07 elapsed
+\n\n\n
+HepG2_m6A-seq_shCont_input_rep1.fastq
+
+[2017-08-06 18:13:59] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-06 18:13:59] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-06 18:13:59] Checking for Bowtie index files (genome)..
+[2017-08-06 18:13:59] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-06 18:13:59] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shCont/input_rep1//tmp/hg19.fa
+[2017-08-06 18:17:02] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-06 18:17:05] Reading known junctions from GTF file
+[2017-08-06 18:17:52] Preparing reads
+	 left reads: min. length=50, max. length=50, 26958347 kept reads (13332 discarded)
+[2017-08-06 18:22:35] Building transcriptome data files ./shCont/input_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-06 18:23:52] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-06 18:59:39] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-06 19:34:29] Resuming TopHat pipeline with unmapped reads
+[2017-08-06 19:34:29] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-06 19:52:38] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-06 19:56:18] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-06 20:00:18] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-06 20:08:23] Retrieving sequences for splices
+[2017-08-06 20:10:26] Indexing splices
+Building a SMALL index
+[2017-08-06 20:11:37] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-06 20:13:47] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-06 20:15:53] Joining segment hits
+[2017-08-06 20:20:42] Reporting output tracks
+-----------------------------------------------
+[2017-08-06 20:45:22] A summary of the alignment counts can be found in ./shCont/input_rep1//align_summary.txt
+[2017-08-06 20:45:22] Run complete: 02:31:23 elapsed
+\n\n\n
+HepG2_m6A-seq_shCont_input_rep2.fastq
+
+[2017-08-06 20:46:32] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-06 20:46:32] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-06 20:46:33] Checking for Bowtie index files (genome)..
+[2017-08-06 20:46:33] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-06 20:46:33] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shCont/input_rep2//tmp/hg19.fa
+[2017-08-06 20:49:36] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-06 20:49:39] Reading known junctions from GTF file
+[2017-08-06 20:50:26] Preparing reads
+	 left reads: min. length=50, max. length=50, 21613842 kept reads (10835 discarded)
+[2017-08-06 20:54:54] Building transcriptome data files ./shCont/input_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-06 20:56:05] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-06 21:31:51] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-06 21:59:36] Resuming TopHat pipeline with unmapped reads
+[2017-08-06 21:59:36] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-06 22:15:04] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-06 22:18:15] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-06 22:21:41] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-06 22:28:01] Retrieving sequences for splices
+[2017-08-06 22:30:01] Indexing splices
+Building a SMALL index
+[2017-08-06 22:30:46] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-06 22:32:29] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-06 22:33:58] Joining segment hits
+[2017-08-06 22:38:31] Reporting output tracks
+-----------------------------------------------
+[2017-08-06 22:59:02] A summary of the alignment counts can be found in ./shCont/input_rep2//align_summary.txt
+[2017-08-06 22:59:02] Run complete: 02:12:29 elapsed
+\n\n\n
+HepG2_m6A-seq_shCont_input_rep3.fastq
+
+[2017-08-06 22:59:59] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-06 22:59:59] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-06 22:59:59] Checking for Bowtie index files (genome)..
+[2017-08-06 22:59:59] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-06 22:59:59] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shCont/input_rep3//tmp/hg19.fa
+[2017-08-06 23:03:02] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-06 23:03:05] Reading known junctions from GTF file
+[2017-08-06 23:03:53] Preparing reads
+	 left reads: min. length=50, max. length=50, 40861542 kept reads (11018 discarded)
+[2017-08-06 23:12:06] Building transcriptome data files ./shCont/input_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-06 23:13:18] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-06 23:49:11] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 01:28:57] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 01:28:57] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 01:40:58] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 01:42:12] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 01:43:38] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 01:55:02] Retrieving sequences for splices
+[2017-08-07 01:57:07] Indexing splices
+Building a SMALL index
+[2017-08-07 01:59:05] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 01:59:55] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 02:00:43] Joining segment hits
+[2017-08-07 02:06:01] Reporting output tracks
+-----------------------------------------------
+[2017-08-07 02:20:39] A summary of the alignment counts can be found in ./shCont/input_rep3//align_summary.txt
+[2017-08-07 02:20:39] Run complete: 03:20:39 elapsed
+\n\n\n
+HepG2_m6A-seq_shM14_IP_rep1.fastq
+
+[2017-08-07 02:22:51] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 02:22:51] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 02:22:51] Checking for Bowtie index files (genome)..
+[2017-08-07 02:22:51] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 02:22:51] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM14/IP_rep1//tmp/hg19.fa
+[2017-08-07 02:25:54] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 02:25:57] Reading known junctions from GTF file
+[2017-08-07 02:26:49] Preparing reads
+	 left reads: min. length=50, max. length=50, 19240339 kept reads (14778 discarded)
+[2017-08-07 02:30:15] Building transcriptome data files ./shM14/IP_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-07 02:31:23] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 03:07:04] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 03:49:28] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 03:49:28] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 03:53:39] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 03:54:35] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 03:55:26] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 04:01:26] Retrieving sequences for splices
+[2017-08-07 04:03:27] Indexing splices
+Building a SMALL index
+[2017-08-07 04:04:24] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 04:04:57] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 04:05:31] Joining segment hits
+[2017-08-07 04:10:01] Reporting output tracks
+-----------------------------------------------
+[2017-08-07 04:30:35] A summary of the alignment counts can be found in ./shM14/IP_rep1//align_summary.txt
+[2017-08-07 04:30:35] Run complete: 02:07:44 elapsed
+\n\n\n
+HepG2_m6A-seq_shM14_IP_rep2.fastq
+
+[2017-08-07 04:31:38] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 04:31:38] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 04:31:38] Checking for Bowtie index files (genome)..
+[2017-08-07 04:31:38] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 04:31:38] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM14/IP_rep2//tmp/hg19.fa
+[2017-08-07 04:34:41] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 04:34:45] Reading known junctions from GTF file
+[2017-08-07 04:35:32] Preparing reads
+	 left reads: min. length=50, max. length=50, 32009780 kept reads (68370 discarded)
+[2017-08-07 04:42:13] Building transcriptome data files ./shM14/IP_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-07 04:43:25] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 05:19:10] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 06:28:49] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 06:28:49] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 06:36:33] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 06:37:54] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 06:39:27] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 06:47:40] Retrieving sequences for splices
+[2017-08-07 06:49:41] Indexing splices
+Building a SMALL index
+[2017-08-07 06:50:49] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 06:51:39] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 06:52:35] Joining segment hits
+[2017-08-07 06:57:14] Reporting output tracks
+-----------------------------------------------
+[2017-08-07 07:29:59] A summary of the alignment counts can be found in ./shM14/IP_rep2//align_summary.txt
+[2017-08-07 07:29:59] Run complete: 02:58:20 elapsed
+\n\n\n
+HepG2_m6A-seq_shM14_IP_rep3.fastq
+
+[2017-08-07 07:31:39] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 07:31:39] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 07:31:39] Checking for Bowtie index files (genome)..
+[2017-08-07 07:31:39] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 07:31:39] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM14/IP_rep3//tmp/hg19.fa
+[2017-08-07 07:34:41] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 07:34:45] Reading known junctions from GTF file
+[2017-08-07 07:35:32] Preparing reads
+	 left reads: min. length=50, max. length=50, 30554048 kept reads (13293 discarded)
+[2017-08-07 07:41:28] Building transcriptome data files ./shM14/IP_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-07 07:42:37] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 08:18:22] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 09:26:47] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 09:26:48] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 09:32:38] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 09:33:25] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 09:34:10] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 09:41:23] Retrieving sequences for splices
+[2017-08-07 09:43:25] Indexing splices
+Building a SMALL index
+[2017-08-07 09:44:38] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 09:45:11] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 09:45:44] Joining segment hits
+[2017-08-07 09:50:13] Reporting output tracks
+-----------------------------------------------
+[2017-08-07 09:59:55] A summary of the alignment counts can be found in ./shM14/IP_rep3//align_summary.txt
+[2017-08-07 09:59:55] Run complete: 02:28:16 elapsed
+\n\n\n
+HepG2_m6A-seq_shM14_input_rep1.fastq
+
+[2017-08-07 10:01:34] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 10:01:34] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 10:01:34] Checking for Bowtie index files (genome)..
+[2017-08-07 10:01:34] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 10:01:34] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM14/input_rep1//tmp/hg19.fa
+[2017-08-07 10:04:37] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 10:04:41] Reading known junctions from GTF file
+[2017-08-07 10:05:28] Preparing reads
+	 left reads: min. length=50, max. length=50, 23367249 kept reads (7903 discarded)
+[2017-08-07 10:10:17] Building transcriptome data files ./shM14/input_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-07 10:11:31] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 10:47:47] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 11:11:50] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 11:11:50] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 11:30:56] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 11:34:19] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 11:38:29] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 11:45:50] Retrieving sequences for splices
+[2017-08-07 11:47:56] Indexing splices
+Building a SMALL index
+[2017-08-07 11:48:48] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 11:50:45] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 11:52:34] Joining segment hits
+[2017-08-07 11:57:08] Reporting output tracks
+-----------------------------------------------
+[2017-08-07 12:17:31] A summary of the alignment counts can be found in ./shM14/input_rep1//align_summary.txt
+[2017-08-07 12:17:31] Run complete: 02:15:57 elapsed
+\n\n\n
+HepG2_m6A-seq_shM14_input_rep2.fastq
+
+[2017-08-07 12:18:27] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 12:18:27] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 12:18:27] Checking for Bowtie index files (genome)..
+[2017-08-07 12:18:27] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 12:18:27] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM14/input_rep2//tmp/hg19.fa
+[2017-08-07 12:21:42] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 12:21:46] Reading known junctions from GTF file
+[2017-08-07 12:22:40] Preparing reads
+	 left reads: min. length=50, max. length=50, 15348474 kept reads (7386 discarded)
+[2017-08-07 12:25:49] Building transcriptome data files ./shM14/input_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-07 12:27:02] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 13:04:17] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 13:20:01] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 13:20:01] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 13:31:51] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 13:34:27] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 13:37:06] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 13:42:36] Retrieving sequences for splices
+[2017-08-07 13:44:40] Indexing splices
+Building a SMALL index
+[2017-08-07 13:45:16] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 13:46:45] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 13:48:15] Joining segment hits
+[2017-08-07 13:52:44] Reporting output tracks
+-----------------------------------------------
+[2017-08-07 14:06:34] A summary of the alignment counts can be found in ./shM14/input_rep2//align_summary.txt
+[2017-08-07 14:06:34] Run complete: 01:48:06 elapsed
+\n\n\n
+HepG2_m6A-seq_shM14_input_rep3.fastq
+
+[2017-08-07 14:07:12] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 14:07:12] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 14:07:12] Checking for Bowtie index files (genome)..
+[2017-08-07 14:07:12] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 14:07:12] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM14/input_rep3//tmp/hg19.fa
+[2017-08-07 14:10:21] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 14:10:25] Reading known junctions from GTF file
+[2017-08-07 14:11:13] Preparing reads
+	 left reads: min. length=50, max. length=50, 36758543 kept reads (8514 discarded)
+[2017-08-07 14:17:53] Building transcriptome data files ./shM14/input_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-07 14:19:07] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 14:55:39] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 16:10:56] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 16:10:56] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 16:25:16] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 16:26:22] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 16:27:31] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 16:35:39] Retrieving sequences for splices
+[2017-08-07 16:37:43] Indexing splices
+Building a SMALL index
+[2017-08-07 16:38:37] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 16:39:24] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 16:40:09] Joining segment hits
+[2017-08-07 16:44:41] Reporting output tracks
+-----------------------------------------------
+[2017-08-07 17:35:50] A summary of the alignment counts can be found in ./shM14/input_rep3//align_summary.txt
+[2017-08-07 17:35:50] Run complete: 03:28:38 elapsed
+\n\n\n
+HepG2_m6A-seq_shM3_IP_rep1.fastq
+
+[2017-08-07 17:40:27] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 17:40:27] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 17:40:28] Checking for Bowtie index files (genome)..
+[2017-08-07 17:40:28] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 17:40:28] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM3/IP_rep1//tmp/hg19.fa
+[2017-08-07 17:45:18] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 17:46:25] Reading known junctions from GTF file
+[2017-08-07 17:48:57] Preparing reads
+	 left reads: min. length=50, max. length=50, 28984437 kept reads (25127 discarded)
+[2017-08-07 17:58:46] Building transcriptome data files ./shM3/IP_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-07 18:00:06] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 18:49:39] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 19:58:29] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 19:58:29] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 20:16:07] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 20:17:50] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 20:19:13] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 20:28:40] Retrieving sequences for splices
+[2017-08-07 20:30:49] Indexing splices
+Building a SMALL index
+[2017-08-07 20:33:16] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 20:34:16] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 20:35:16] Joining segment hits
+[2017-08-07 20:41:20] Reporting output tracks
+	[FAILED]
+Error running /public/zhoukr/softwares/tophat/tophat_reports --min-anchor 8 --splice-mismatches 0 --min-report-intron 50 --max-report-intron 500000 --min-isoform-fraction 0.15 --output-dir ./shM3/IP_rep1// --max-multihits 1 --max-seg-multihits 10 --segment-length 25 --segment-mismatches 2 --min-closure-exon 100 --min-closure-intron 50 --max-closure-intron 5000 --min-coverage-intron 50 --max-coverage-intron 20000 --min-segment-intron 50 --max-segment-intron 500000 --read-mismatches 2 --read-gap-length 2 --read-edit-dist 2 --read-realign-edit-dist 3 --max-insertion-length 3 --max-deletion-length 3 -z gzip -p48 --gtf-annotations /data/zhoukr/hhl_setd2_m6a/reference/annotation/gencode.v24lift37.annotation.gtf --gtf-juncs ./shM3/IP_rep1//tmp/gencode.juncs --no-closure-search --no-microexon-search --library-type fr-firststrand --sam-header ./shM3/IP_rep1//tmp/hg19_genome.bwt.samheader.sam --report-discordant-pair-alignments --report-mixed-alignments --samtools=/public/zhoukr/softwares/tophat/samtools_0.1.18 --bowtie2-max-penalty 6 --bowtie2-min-penalty 2 --bowtie2-penalty-for-N 1 --bowtie2-read-gap-open 5 --bowtie2-read-gap-cont 3 --bowtie2-ref-gap-open 5 --bowtie2-ref-gap-cont 3 ./shM3/IP_rep1//tmp/hg19.fa ./shM3/IP_rep1//junctions.bed ./shM3/IP_rep1//insertions.bed ./shM3/IP_rep1//deletions.bed ./shM3/IP_rep1//fusions.out ./shM3/IP_rep1//tmp/accepted_hits ./shM3/IP_rep1//tmp/left_kept_reads.m2g.bam,./shM3/IP_rep1//tmp/left_kept_reads.m2g_um.mapped.bam,./shM3/IP_rep1//tmp/left_kept_reads.m2g_um.candidates ./shM3/IP_rep1//tmp/left_kept_reads.bam
+Error: bam_merge failed to open BAM file ./shM3/IP_rep1//tmp/left_kept_reads.m2g_um.candidates5.bam
+
+rename: renaming ./shM3/IP_rep1/accepted_hits.bam to ./shM3/IP_rep1/HepG2_m6A-seq_shM3_IP_rep1.fastq.bam failed: No such file or directory
+mv: cannot stat `./shM3/IP_rep1/HepG2_m6A-seq_shM3_IP_rep1.fastq.bam': No such file or directory
+[E::hts_open_format] fail to open file './shM3/HepG2_m6A-seq_shM3_IP_rep1.fastq.bam'
+[bam_sort_core] fail to open './shM3/HepG2_m6A-seq_shM3_IP_rep1.fastq.bam': No such file or directory
+rm: cannot remove `./shM3/HepG2_m6A-seq_shM3_IP_rep1.fastq.bam': No such file or directory
+[E::hts_open_format] fail to open file './shM3/HepG2_m6A-seq_shM3_IP_rep1.fastq.sorted.bam'
+samtools index: failed to open "./shM3/HepG2_m6A-seq_shM3_IP_rep1.fastq.sorted.bam": No such file or directory
+\n\n\n
+HepG2_m6A-seq_shM3_IP_rep2.fastq
+
+[2017-08-07 20:45:00] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-07 20:45:00] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-07 20:45:01] Checking for Bowtie index files (genome)..
+[2017-08-07 20:45:01] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-07 20:45:01] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM3/IP_rep2//tmp/hg19.fa
+[2017-08-07 20:48:00] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-07 20:48:13] Reading known junctions from GTF file
+[2017-08-07 20:49:08] Preparing reads
+	 left reads: min. length=50, max. length=50, 31861637 kept reads (68079 discarded)
+[2017-08-07 20:57:59] Building transcriptome data files ./shM3/IP_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-07 20:59:27] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-07 21:44:15] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-07 22:54:11] Resuming TopHat pipeline with unmapped reads
+[2017-08-07 22:54:11] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-07 23:01:11] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-07 23:03:06] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-07 23:04:56] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-07 23:18:08] Retrieving sequences for splices
+[2017-08-07 23:23:00] Indexing splices
+Building a SMALL index
+[2017-08-07 23:35:33] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-07 23:37:14] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-07 23:39:32] Joining segment hits
+[2017-08-08 01:31:12] Reporting output tracks
+-----------------------------------------------
+[2017-08-08 02:19:58] A summary of the alignment counts can be found in ./shM3/IP_rep2//align_summary.txt
+[2017-08-08 02:19:58] Run complete: 05:34:57 elapsed
+\n\n\n
+HepG2_m6A-seq_shM3_IP_rep3.fastq
+
+[2017-08-08 02:29:46] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-08 02:29:46] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-08 02:29:47] Checking for Bowtie index files (genome)..
+[2017-08-08 02:29:47] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-08 02:29:47] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM3/IP_rep3//tmp/hg19.fa
+[2017-08-08 02:43:40] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-08 02:54:34] Reading known junctions from GTF file
+[2017-08-08 02:55:23] Preparing reads
+	 left reads: min. length=50, max. length=50, 40220754 kept reads (16887 discarded)
+[2017-08-08 03:03:06] Building transcriptome data files ./shM3/IP_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-08 03:06:17] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-08 04:36:40] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-08 06:12:56] Resuming TopHat pipeline with unmapped reads
+[2017-08-08 06:12:56] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-08 06:19:43] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-08 06:20:39] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-08 06:21:42] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-08 06:31:11] Retrieving sequences for splices
+[2017-08-08 06:33:13] Indexing splices
+Building a SMALL index
+[2017-08-08 06:34:42] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-08 06:35:20] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-08 06:35:59] Joining segment hits
+[2017-08-08 06:40:50] Reporting output tracks
+-----------------------------------------------
+[2017-08-08 06:53:01] A summary of the alignment counts can be found in ./shM3/IP_rep3//align_summary.txt
+[2017-08-08 06:53:01] Run complete: 04:23:14 elapsed
+\n\n\n
+HepG2_m6A-seq_shM3_input_rep1.fastq
+
+[2017-08-08 06:55:08] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-08 06:55:08] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-08 06:55:08] Checking for Bowtie index files (genome)..
+[2017-08-08 06:55:08] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-08 06:55:08] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM3/input_rep1//tmp/hg19.fa
+[2017-08-08 06:57:48] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-08 06:57:51] Reading known junctions from GTF file
+[2017-08-08 06:58:38] Preparing reads
+	 left reads: min. length=50, max. length=50, 20558127 kept reads (14632 discarded)
+[2017-08-08 07:02:17] Building transcriptome data files ./shM3/input_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-08 07:03:25] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-08 07:43:05] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-08 08:06:45] Resuming TopHat pipeline with unmapped reads
+[2017-08-08 08:06:45] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-08 08:24:51] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-08 08:28:15] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-08 08:31:27] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-08 08:38:58] Retrieving sequences for splices
+[2017-08-08 08:40:58] Indexing splices
+Building a SMALL index
+[2017-08-08 08:41:57] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-08 08:44:18] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-08 08:46:36] Joining segment hits
+[2017-08-08 08:51:13] Reporting output tracks
+-----------------------------------------------
+[2017-08-08 09:08:01] A summary of the alignment counts can be found in ./shM3/input_rep1//align_summary.txt
+[2017-08-08 09:08:01] Run complete: 02:12:53 elapsed
+\n\n\n
+HepG2_m6A-seq_shM3_input_rep2.fastq
+
+[2017-08-08 09:08:42] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-08 09:08:42] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-08 09:08:42] Checking for Bowtie index files (genome)..
+[2017-08-08 09:08:42] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-08 09:08:42] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM3/input_rep2//tmp/hg19.fa
+[2017-08-08 09:11:37] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-08 09:11:40] Reading known junctions from GTF file
+[2017-08-08 09:12:28] Preparing reads
+	 left reads: min. length=50, max. length=50, 21858837 kept reads (15202 discarded)
+[2017-08-08 09:16:56] Building transcriptome data files ./shM3/input_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-08 09:18:05] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-08 09:56:20] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-08 10:20:38] Resuming TopHat pipeline with unmapped reads
+[2017-08-08 10:20:38] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-08 10:41:39] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-08 10:45:43] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-08 10:49:35] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-08 10:57:10] Retrieving sequences for splices
+[2017-08-08 11:07:36] Indexing splices
+Building a SMALL index
+[2017-08-08 11:08:58] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-08 11:11:45] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-08 11:14:12] Joining segment hits
+[2017-08-08 12:00:55] Reporting output tracks
+-----------------------------------------------
+[2017-08-08 12:31:41] A summary of the alignment counts can be found in ./shM3/input_rep2//align_summary.txt
+[2017-08-08 12:31:41] Run complete: 03:22:58 elapsed
+\n\n\n
+HepG2_m6A-seq_shM3_input_rep3.fastq
+
+[2017-08-08 12:32:32] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-08 12:32:32] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-08 12:32:32] Checking for Bowtie index files (genome)..
+[2017-08-08 12:32:32] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-08 12:32:32] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shM3/input_rep3//tmp/hg19.fa
+[2017-08-08 12:38:39] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-08 12:46:48] Reading known junctions from GTF file
+[2017-08-08 12:47:34] Preparing reads
+	 left reads: min. length=50, max. length=50, 38131372 kept reads (10065 discarded)
+[2017-08-08 12:54:44] Building transcriptome data files ./shM3/input_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-08 12:59:01] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-08 14:05:37] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-08 15:35:44] Resuming TopHat pipeline with unmapped reads
+[2017-08-08 15:35:44] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-08 15:57:37] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-08 15:59:11] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-08 16:00:36] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-08 16:11:24] Retrieving sequences for splices
+[2017-08-08 16:13:24] Indexing splices
+Building a SMALL index
+[2017-08-08 16:14:28] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-08 16:15:32] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-08 16:16:29] Joining segment hits
+[2017-08-08 16:21:01] Reporting output tracks
+-----------------------------------------------
+[2017-08-08 17:06:10] A summary of the alignment counts can be found in ./shM3/input_rep3//align_summary.txt
+[2017-08-08 17:06:10] Run complete: 04:33:37 elapsed
+\n\n\n
+HepG2_m6A-seq_shSetD2_IP_rep1.fastq
+
+[2017-08-08 17:08:13] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-08 17:08:13] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-08 17:08:13] Checking for Bowtie index files (genome)..
+[2017-08-08 17:08:13] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-08 17:08:13] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shSetD2/IP_rep1//tmp/hg19.fa
+[2017-08-08 17:11:05] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-08 17:11:08] Reading known junctions from GTF file
+[2017-08-08 17:12:02] Preparing reads
+	 left reads: min. length=50, max. length=50, 16229693 kept reads (91890 discarded)
+[2017-08-08 17:15:18] Building transcriptome data files ./shSetD2/IP_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-08 17:16:28] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-08 17:55:03] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-08 18:30:24] Resuming TopHat pipeline with unmapped reads
+[2017-08-08 18:30:24] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-08 18:34:19] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-08 18:35:02] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-08 18:35:47] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-08 18:41:16] Retrieving sequences for splices
+[2017-08-08 18:43:20] Indexing splices
+Building a SMALL index
+[2017-08-08 18:44:07] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-08 18:44:38] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-08 18:45:11] Joining segment hits
+[2017-08-08 18:49:37] Reporting output tracks
+-----------------------------------------------
+[2017-08-08 19:07:26] A summary of the alignment counts can be found in ./shSetD2/IP_rep1//align_summary.txt
+[2017-08-08 19:07:26] Run complete: 01:59:13 elapsed
+\n\n\n
+HepG2_m6A-seq_shSetD2_IP_rep2.fastq
+
+[2017-08-08 19:08:14] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-08 19:08:14] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-08 19:08:15] Checking for Bowtie index files (genome)..
+[2017-08-08 19:08:15] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-08 19:08:15] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shSetD2/IP_rep2//tmp/hg19.fa
+[2017-08-08 19:10:51] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-08 19:10:54] Reading known junctions from GTF file
+[2017-08-08 19:11:40] Preparing reads
+	 left reads: min. length=50, max. length=50, 12035305 kept reads (48943 discarded)
+[2017-08-08 19:13:51] Building transcriptome data files ./shSetD2/IP_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-08 19:15:00] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-08 19:53:00] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-08 20:18:04] Resuming TopHat pipeline with unmapped reads
+[2017-08-08 20:18:05] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-08 20:22:31] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-08 20:23:26] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-08 20:24:20] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-08 20:29:32] Retrieving sequences for splices
+[2017-08-08 20:31:32] Indexing splices
+Building a SMALL index
+[2017-08-08 20:32:14] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-08 20:32:46] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-08 20:33:18] Joining segment hits
+[2017-08-08 20:37:32] Reporting output tracks
+-----------------------------------------------
+[2017-08-08 20:50:41] A summary of the alignment counts can be found in ./shSetD2/IP_rep2//align_summary.txt
+[2017-08-08 20:50:41] Run complete: 01:42:26 elapsed
+\n\n\n
+HepG2_m6A-seq_shSetD2_IP_rep3.fastq
+
+[2017-08-08 20:51:16] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-08 20:51:16] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-08 20:51:16] Checking for Bowtie index files (genome)..
+[2017-08-08 20:51:16] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-08 20:51:16] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shSetD2/IP_rep3//tmp/hg19.fa
+[2017-08-08 20:54:02] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-08 20:54:06] Reading known junctions from GTF file
+[2017-08-08 20:54:53] Preparing reads
+	 left reads: min. length=50, max. length=50, 40277414 kept reads (23665 discarded)
+[2017-08-08 21:03:33] Building transcriptome data files ./shSetD2/IP_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-08 21:04:50] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-08 21:43:53] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-08 23:23:38] Resuming TopHat pipeline with unmapped reads
+[2017-08-08 23:23:38] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-08 23:29:26] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-08 23:30:34] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-08 23:31:44] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-08 23:44:03] Retrieving sequences for splices
+[2017-08-08 23:46:10] Indexing splices
+Building a SMALL index
+[2017-08-08 23:48:33] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-08 23:49:27] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-08 23:50:21] Joining segment hits
+[2017-08-08 23:55:39] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 00:06:48] A summary of the alignment counts can be found in ./shSetD2/IP_rep3//align_summary.txt
+[2017-08-09 00:06:48] Run complete: 03:15:31 elapsed
+\n\n\n
+HepG2_m6A-seq_shSetD2_input_rep1.fastq
+
+[2017-08-09 00:11:01] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 00:11:01] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 00:11:01] Checking for Bowtie index files (genome)..
+[2017-08-09 00:11:01] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 00:11:01] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shSetD2/input_rep1//tmp/hg19.fa
+[2017-08-09 00:22:30] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 00:23:40] Reading known junctions from GTF file
+[2017-08-09 00:24:45] Preparing reads
+	 left reads: min. length=50, max. length=50, 18970056 kept reads (13404 discarded)
+[2017-08-09 00:28:23] Building transcriptome data files ./shSetD2/input_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-09 00:40:41] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 01:36:59] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 01:59:32] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 01:59:32] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 02:15:20] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 02:18:39] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 02:21:48] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 02:28:33] Retrieving sequences for splices
+[2017-08-09 02:30:33] Indexing splices
+Building a SMALL index
+[2017-08-09 02:31:10] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 02:33:06] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 02:35:16] Joining segment hits
+[2017-08-09 02:39:43] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 02:55:53] A summary of the alignment counts can be found in ./shSetD2/input_rep1//align_summary.txt
+[2017-08-09 02:55:53] Run complete: 02:44:51 elapsed
+\n\n\n
+HepG2_m6A-seq_shSetD2_input_rep2.fastq
+
+[2017-08-09 02:56:33] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 02:56:33] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 02:56:33] Checking for Bowtie index files (genome)..
+[2017-08-09 02:56:33] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 02:56:33] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shSetD2/input_rep2//tmp/hg19.fa
+[2017-08-09 02:59:32] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 02:59:35] Reading known junctions from GTF file
+[2017-08-09 03:00:22] Preparing reads
+	 left reads: min. length=50, max. length=50, 14478615 kept reads (9621 discarded)
+[2017-08-09 03:03:18] Building transcriptome data files ./shSetD2/input_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-09 03:04:28] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 03:43:01] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 04:01:02] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 04:01:02] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 04:12:51] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 04:15:14] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 04:17:49] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 04:23:49] Retrieving sequences for splices
+[2017-08-09 04:25:57] Indexing splices
+Building a SMALL index
+[2017-08-09 04:26:36] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 04:28:10] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 04:29:43] Joining segment hits
+[2017-08-09 04:34:06] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 04:47:07] A summary of the alignment counts can be found in ./shSetD2/input_rep2//align_summary.txt
+[2017-08-09 04:47:07] Run complete: 01:50:33 elapsed
+\n\n\n
+HepG2_m6A-seq_shSetD2_input_rep3.fastq
+
+[2017-08-09 04:47:41] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 04:47:41] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 04:47:41] Checking for Bowtie index files (genome)..
+[2017-08-09 04:47:41] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 04:47:41] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shSetD2/input_rep3//tmp/hg19.fa
+[2017-08-09 04:50:45] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 04:50:48] Reading known junctions from GTF file
+[2017-08-09 04:51:36] Preparing reads
+	 left reads: min. length=50, max. length=50, 40326328 kept reads (11628 discarded)
+[2017-08-09 04:59:25] Building transcriptome data files ./shSetD2/input_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-09 05:00:35] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 05:39:30] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 07:21:16] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 07:21:16] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 07:32:53] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 07:34:18] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 07:35:38] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 07:47:30] Retrieving sequences for splices
+[2017-08-09 07:49:38] Indexing splices
+Building a SMALL index
+[2017-08-09 07:51:18] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 07:52:06] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 07:52:57] Joining segment hits
+[2017-08-09 07:58:22] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 08:16:34] A summary of the alignment counts can be found in ./shSetD2/input_rep3//align_summary.txt
+[2017-08-09 08:16:34] Run complete: 03:28:53 elapsed
+\n\n\n
+HepG2_m6A-seq_shWTAP_IP_rep1.fastq
+
+[2017-08-09 08:18:46] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 08:18:46] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 08:18:46] Checking for Bowtie index files (genome)..
+[2017-08-09 08:18:46] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 08:18:46] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shWTAP/IP_rep1//tmp/hg19.fa
+[2017-08-09 08:21:50] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 08:21:53] Reading known junctions from GTF file
+[2017-08-09 08:22:41] Preparing reads
+	 left reads: min. length=50, max. length=50, 20743912 kept reads (23198 discarded)
+[2017-08-09 08:27:07] Building transcriptome data files ./shWTAP/IP_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-09 08:28:17] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 09:06:32] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 09:52:29] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 09:52:29] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 09:56:44] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 09:57:33] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 09:58:21] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 10:04:50] Retrieving sequences for splices
+[2017-08-09 10:06:52] Indexing splices
+Building a SMALL index
+[2017-08-09 10:07:58] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 10:08:31] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 10:09:06] Joining segment hits
+[2017-08-09 10:13:41] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 10:47:50] A summary of the alignment counts can be found in ./shWTAP/IP_rep1//align_summary.txt
+[2017-08-09 10:47:50] Run complete: 02:29:04 elapsed
+\n\n\n
+HepG2_m6A-seq_shWTAP_IP_rep2.fastq
+
+[2017-08-09 10:49:32] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 10:49:32] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 10:49:32] Checking for Bowtie index files (genome)..
+[2017-08-09 10:49:32] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 10:49:32] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shWTAP/IP_rep2//tmp/hg19.fa
+[2017-08-09 10:53:02] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 10:53:06] Reading known junctions from GTF file
+[2017-08-09 10:54:10] Preparing reads
+	 left reads: min. length=50, max. length=50, 46115594 kept reads (63317 discarded)
+[2017-08-09 11:06:58] Building transcriptome data files ./shWTAP/IP_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-09 11:08:49] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 11:58:01] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 13:39:33] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 13:39:33] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 13:47:10] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 13:48:31] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 13:49:51] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 14:00:25] Retrieving sequences for splices
+[2017-08-09 14:02:28] Indexing splices
+Building a SMALL index
+[2017-08-09 14:03:58] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 14:04:50] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 14:05:45] Joining segment hits
+[2017-08-09 14:10:48] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 14:21:59] A summary of the alignment counts can be found in ./shWTAP/IP_rep2//align_summary.txt
+[2017-08-09 14:21:59] Run complete: 03:32:26 elapsed
+\n\n\n
+HepG2_m6A-seq_shWTAP_IP_rep3.fastq
+
+[2017-08-09 14:24:29] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 14:24:29] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 14:24:29] Checking for Bowtie index files (genome)..
+[2017-08-09 14:24:29] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 14:24:29] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shWTAP/IP_rep3//tmp/hg19.fa
+[2017-08-09 14:27:08] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 14:27:11] Reading known junctions from GTF file
+[2017-08-09 14:27:57] Preparing reads
+	 left reads: min. length=50, max. length=50, 35696751 kept reads (16743 discarded)
+[2017-08-09 14:34:38] Building transcriptome data files ./shWTAP/IP_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-09 14:35:54] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 15:15:01] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 16:41:28] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 16:41:28] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 16:47:55] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 16:48:48] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 16:49:44] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 16:58:57] Retrieving sequences for splices
+[2017-08-09 17:00:59] Indexing splices
+Building a SMALL index
+[2017-08-09 17:02:17] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 17:02:52] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 17:03:31] Joining segment hits
+[2017-08-09 17:08:17] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 17:21:18] A summary of the alignment counts can be found in ./shWTAP/IP_rep3//align_summary.txt
+[2017-08-09 17:21:18] Run complete: 02:56:48 elapsed
+\n\n\n
+HepG2_m6A-seq_shWTAP_input_rep1.fastq
+
+[2017-08-09 17:23:18] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 17:23:18] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 17:23:18] Checking for Bowtie index files (genome)..
+[2017-08-09 17:23:18] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 17:23:18] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shWTAP/input_rep1//tmp/hg19.fa
+[2017-08-09 17:25:55] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 17:25:59] Reading known junctions from GTF file
+[2017-08-09 17:26:44] Preparing reads
+	 left reads: min. length=50, max. length=50, 21452925 kept reads (8339 discarded)
+[2017-08-09 17:30:44] Building transcriptome data files ./shWTAP/input_rep1//tmp/gencode.v24lift37.annotation
+[2017-08-09 17:31:54] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 18:09:58] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 18:32:34] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 18:32:34] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 18:50:19] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 18:54:41] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 18:58:46] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 19:06:19] Retrieving sequences for splices
+[2017-08-09 19:08:18] Indexing splices
+Building a SMALL index
+[2017-08-09 19:09:03] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 19:11:46] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 19:14:11] Joining segment hits
+[2017-08-09 19:18:46] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 19:47:04] A summary of the alignment counts can be found in ./shWTAP/input_rep1//align_summary.txt
+[2017-08-09 19:47:04] Run complete: 02:23:45 elapsed
+\n\n\n
+HepG2_m6A-seq_shWTAP_input_rep2.fastq
+
+[2017-08-09 19:48:04] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 19:48:04] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 19:48:04] Checking for Bowtie index files (genome)..
+[2017-08-09 19:48:04] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 19:48:04] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shWTAP/input_rep2//tmp/hg19.fa
+[2017-08-09 19:51:35] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 19:51:40] Reading known junctions from GTF file
+[2017-08-09 19:52:48] Preparing reads
+	 left reads: min. length=50, max. length=50, 14241506 kept reads (6333 discarded)
+[2017-08-09 19:56:31] Building transcriptome data files ./shWTAP/input_rep2//tmp/gencode.v24lift37.annotation
+[2017-08-09 19:58:35] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 20:48:50] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-09 21:03:55] Resuming TopHat pipeline with unmapped reads
+[2017-08-09 21:03:55] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-09 21:17:09] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-09 21:20:18] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-09 21:23:19] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-09 21:29:01] Retrieving sequences for splices
+[2017-08-09 21:31:11] Indexing splices
+Building a SMALL index
+[2017-08-09 21:31:47] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-09 21:33:41] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-09 21:35:17] Joining segment hits
+[2017-08-09 21:39:53] Reporting output tracks
+-----------------------------------------------
+[2017-08-09 21:51:28] A summary of the alignment counts can be found in ./shWTAP/input_rep2//align_summary.txt
+[2017-08-09 21:51:28] Run complete: 02:03:24 elapsed
+\n\n\n
+HepG2_m6A-seq_shWTAP_input_rep3.fastq
+
+[2017-08-09 21:51:55] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-08-09 21:51:55] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-08-09 21:51:55] Checking for Bowtie index files (genome)..
+[2017-08-09 21:51:55] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-08-09 21:51:55] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > ./shWTAP/input_rep3//tmp/hg19.fa
+[2017-08-09 21:54:33] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-08-09 21:54:36] Reading known junctions from GTF file
+[2017-08-09 21:55:24] Preparing reads
+	 left reads: min. length=50, max. length=50, 46678295 kept reads (11984 discarded)
+[2017-08-09 22:04:40] Building transcriptome data files ./shWTAP/input_rep3//tmp/gencode.v24lift37.annotation
+[2017-08-09 22:05:51] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-08-09 22:43:36] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-08-10 00:32:14] Resuming TopHat pipeline with unmapped reads
+[2017-08-10 00:32:14] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-08-10 00:49:40] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-08-10 00:51:28] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-08-10 00:53:18] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-08-10 01:04:46] Retrieving sequences for splices
+[2017-08-10 01:06:47] Indexing splices
+Building a SMALL index
+[2017-08-10 01:07:57] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-08-10 01:09:00] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-08-10 01:10:06] Joining segment hits
+[2017-08-10 01:15:20] Reporting output tracks
+-----------------------------------------------
+[2017-08-10 01:32:14] A summary of the alignment counts can be found in ./shWTAP/input_rep3//align_summary.txt
+[2017-08-10 01:32:14] Run complete: 03:40:19 elapsed

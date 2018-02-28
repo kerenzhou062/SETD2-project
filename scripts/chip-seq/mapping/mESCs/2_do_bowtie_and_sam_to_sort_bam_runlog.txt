@@ -1,0 +1,89 @@
+nohup: ignoring input
+mES_ChIP-seq_Ctrl_D0_ChIP-rep1.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:02:10
+# reads processed: 22442821
+# reads with at least one reported alignment: 17233641 (76.79%)
+# reads that failed to align: 1350004 (6.02%)
+# reads with alignments suppressed due to -m: 3859176 (17.20%)
+Reported 17233641 alignments to 1 output stream(s)
+Time searching: 00:02:12
+Overall time: 00:02:12
+mES_ChIP-seq_Ctrl_D0_ChIP-rep2.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:11
+# reads processed: 33103143
+# reads with at least one reported alignment: 25275470 (76.35%)
+# reads that failed to align: 1922442 (5.81%)
+# reads with alignments suppressed due to -m: 5905231 (17.84%)
+Reported 25275470 alignments to 1 output stream(s)
+Time searching: 00:03:13
+Overall time: 00:03:13
+mES_ChIP-seq_Ctrl_D0_input-rep1.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:02:27
+# reads processed: 24807064
+# reads with at least one reported alignment: 19058536 (76.83%)
+# reads that failed to align: 1403305 (5.66%)
+# reads with alignments suppressed due to -m: 4345223 (17.52%)
+Reported 19058536 alignments to 1 output stream(s)
+Time searching: 00:02:29
+Overall time: 00:02:29
+mES_ChIP-seq_Ctrl_D0_input-rep2.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:03
+# reads processed: 26675262
+# reads with at least one reported alignment: 20548495 (77.03%)
+# reads that failed to align: 1508171 (5.65%)
+# reads with alignments suppressed due to -m: 4618596 (17.31%)
+Reported 20548495 alignments to 1 output stream(s)
+Time searching: 00:03:05
+Overall time: 00:03:05
+mES_ChIP-seq_SetD2-KD_D0_ChIP-rep1.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:01
+# reads processed: 27070353
+# reads with at least one reported alignment: 20426475 (75.46%)
+# reads that failed to align: 1450080 (5.36%)
+# reads with alignments suppressed due to -m: 5193798 (19.19%)
+Reported 20426475 alignments to 1 output stream(s)
+Time searching: 00:03:03
+Overall time: 00:03:03
+mES_ChIP-seq_SetD2-KD_D0_ChIP-rep2.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:02:51
+# reads processed: 24579661
+# reads with at least one reported alignment: 18244507 (74.23%)
+# reads that failed to align: 1786137 (7.27%)
+# reads with alignments suppressed due to -m: 4549017 (18.51%)
+Reported 18244507 alignments to 1 output stream(s)
+Time searching: 00:02:53
+Overall time: 00:02:53
+mES_ChIP-seq_SetD2-KD_D0_input-rep1.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:05
+# reads processed: 27652170
+# reads with at least one reported alignment: 21170220 (76.56%)
+# reads that failed to align: 1536495 (5.56%)
+# reads with alignments suppressed due to -m: 4945455 (17.88%)
+Reported 21170220 alignments to 1 output stream(s)
+Time searching: 00:03:07
+Overall time: 00:03:07
+mES_ChIP-seq_SetD2-KD_D0_input-rep2.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:02:23
+# reads processed: 21277659
+# reads with at least one reported alignment: 16301605 (76.61%)
+# reads that failed to align: 1235091 (5.80%)
+# reads with alignments suppressed due to -m: 3740963 (17.58%)
+Reported 16301605 alignments to 1 output stream(s)
+Time searching: 00:02:25
+Overall time: 00:02:25

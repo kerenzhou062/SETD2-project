@@ -1,0 +1,23 @@
+nohup: ignoring input
+Hela_ChIP-seq_shSetD2_input.fastq
+Time loading forward index: 00:04:26
+Time loading mirror index: 00:02:01
+End-to-end 2/3-mismatch full-index search: 00:20:58
+# reads processed: 87739707
+# reads with at least one reported alignment: 75220760 (85.73%)
+# reads that failed to align: 4337877 (4.94%)
+# reads with alignments suppressed due to -m: 8181070 (9.32%)
+Reported 75220760 alignments to 1 output stream(s)
+Time searching: 00:27:25
+Overall time: 00:27:25
+Hela_ChIP-seq_shSetD2_IP.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:15:05
+# reads processed: 65869636
+# reads with at least one reported alignment: 55180586 (83.77%)
+# reads that failed to align: 4370039 (6.63%)
+# reads with alignments suppressed due to -m: 6319011 (9.59%)
+Reported 55180586 alignments to 1 output stream(s)
+Time searching: 00:15:07
+Overall time: 00:15:07

@@ -1,0 +1,43 @@
+nohup: ignoring input
+Hela_m6A-seq_shSetD2_input_rep1.fastq
+17545185 reads; of these:
+  17545185 (100.00%) were unpaired; of these:
+    2856395 (16.28%) aligned 0 times
+    9689150 (55.22%) aligned exactly 1 time
+    4999640 (28.50%) aligned >1 times
+83.72% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 16 files...
+stringtie: start assbemling transcriptome...
+
+Hela_m6A-seq_shSetD2_input_rep2.fastq
+19965687 reads; of these:
+  19965687 (100.00%) were unpaired; of these:
+    3226003 (16.16%) aligned 0 times
+    11430616 (57.25%) aligned exactly 1 time
+    5309068 (26.59%) aligned >1 times
+83.84% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 16 files...
+stringtie: start assbemling transcriptome...
+
+Hela_m6A-seq_shSetD2_input_rep3.fastq
+56746750 reads; of these:
+  56746750 (100.00%) were unpaired; of these:
+    3566758 (6.29%) aligned 0 times
+    32980951 (58.12%) aligned exactly 1 time
+    20199041 (35.60%) aligned >1 times
+93.71% overall alignment rate
+transcripts alignment done. sam to index bam by using samtools...
+
+[bam_sort_core] merging from 40 files...
+stringtie: start assbemling transcriptome...
+
+stringtie: start merging the assembled transcriptome...
+
+gffcompare: start comparing to the reference gtf annotation...
+
+jobs have been done.
+

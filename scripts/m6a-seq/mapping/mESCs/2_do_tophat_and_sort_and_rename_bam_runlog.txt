@@ -1,0 +1,257 @@
+nohup: ignoring input
+mES_m6A-seq_Ctrl_D0_input.fastq
+
+[2017-01-14 20:11:30] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-14 20:11:30] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-14 20:11:30] Checking for Bowtie index files (genome)..
+[2017-01-14 20:11:30] Checking for reference FASTA file
+[2017-01-14 20:11:30] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-14 20:11:33] Reading known junctions from GTF file
+[2017-01-14 20:11:59] Preparing reads
+	 left reads: min. length=50, max. length=50, 24653435 kept reads (9730 discarded)
+[2017-01-14 20:16:25] Building transcriptome data files ./Ctrl_D0/input//tmp/gencode.vM9.annotation
+[2017-01-14 20:17:07] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-14 20:37:48] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-14 21:01:25] Resuming TopHat pipeline with unmapped reads
+[2017-01-14 21:01:25] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-14 21:22:04] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-14 21:24:34] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-14 21:26:58] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-14 21:41:18] Retrieving sequences for splices
+[2017-01-14 21:44:18] Indexing splices
+Building a SMALL index
+[2017-01-14 21:45:23] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-14 21:46:06] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-14 21:46:50] Joining segment hits
+[2017-01-14 21:50:59] Reporting output tracks
+-----------------------------------------------
+[2017-01-14 22:01:45] A summary of the alignment counts can be found in ./Ctrl_D0/input//align_summary.txt
+[2017-01-14 22:01:45] Run complete: 01:50:15 elapsed
+mES_m6A-seq_Ctrl_D0_IP.fastq
+
+[2017-01-14 22:03:31] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-14 22:03:31] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-14 22:03:31] Checking for Bowtie index files (genome)..
+[2017-01-14 22:03:31] Checking for reference FASTA file
+[2017-01-14 22:03:31] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-14 22:03:36] Reading known junctions from GTF file
+[2017-01-14 22:04:21] Preparing reads
+	 left reads: min. length=50, max. length=50, 27312755 kept reads (11516 discarded)
+[2017-01-14 22:12:13] Building transcriptome data files ./Ctrl_D0/IP//tmp/gencode.vM9.annotation
+[2017-01-14 22:13:27] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-14 22:35:49] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-14 23:08:13] Resuming TopHat pipeline with unmapped reads
+[2017-01-14 23:08:13] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-14 23:15:15] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-14 23:16:35] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-14 23:18:00] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-14 23:25:53] Retrieving sequences for splices
+[2017-01-14 23:27:57] Indexing splices
+Building a SMALL index
+[2017-01-14 23:28:51] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-14 23:29:39] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-14 23:30:31] Joining segment hits
+[2017-01-14 23:33:34] Reporting output tracks
+-----------------------------------------------
+[2017-01-14 23:53:57] A summary of the alignment counts can be found in ./Ctrl_D0/IP//align_summary.txt
+[2017-01-14 23:53:57] Run complete: 01:50:25 elapsed
+mES_m6A-seq_Ctrl_D6_input.fastq
+
+[2017-01-14 23:55:19] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-14 23:55:19] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-14 23:55:19] Checking for Bowtie index files (genome)..
+[2017-01-14 23:55:19] Checking for reference FASTA file
+[2017-01-14 23:55:19] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-14 23:55:22] Reading known junctions from GTF file
+[2017-01-14 23:55:48] Preparing reads
+	 left reads: min. length=50, max. length=50, 26327123 kept reads (7755 discarded)
+[2017-01-15 00:00:34] Building transcriptome data files ./Ctrl_D6/input//tmp/gencode.vM9.annotation
+[2017-01-15 00:01:16] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-15 00:27:33] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-15 00:58:21] Resuming TopHat pipeline with unmapped reads
+[2017-01-15 00:58:21] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-15 01:12:06] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-15 01:14:15] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-15 01:16:20] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-15 01:27:33] Retrieving sequences for splices
+[2017-01-15 01:30:19] Indexing splices
+Building a SMALL index
+[2017-01-15 01:31:04] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-15 01:31:39] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-15 01:32:22] Joining segment hits
+[2017-01-15 01:35:53] Reporting output tracks
+-----------------------------------------------
+[2017-01-15 01:45:28] A summary of the alignment counts can be found in ./Ctrl_D6/input//align_summary.txt
+[2017-01-15 01:45:28] Run complete: 01:50:09 elapsed
+mES_m6A-seq_Ctrl_D6_IP.fastq
+
+[2017-01-15 01:47:01] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-15 01:47:01] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-15 01:47:01] Checking for Bowtie index files (genome)..
+[2017-01-15 01:47:01] Checking for reference FASTA file
+[2017-01-15 01:47:01] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-15 01:47:06] Reading known junctions from GTF file
+[2017-01-15 01:47:40] Preparing reads
+	 left reads: min. length=50, max. length=50, 23847906 kept reads (4328 discarded)
+[2017-01-15 01:53:38] Building transcriptome data files ./Ctrl_D6/IP//tmp/gencode.vM9.annotation
+[2017-01-15 01:54:39] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-15 02:18:17] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-15 02:47:30] Resuming TopHat pipeline with unmapped reads
+[2017-01-15 02:47:31] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-15 02:50:51] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-15 02:51:40] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-15 02:52:33] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-15 02:59:05] Retrieving sequences for splices
+[2017-01-15 03:01:15] Indexing splices
+Building a SMALL index
+[2017-01-15 03:01:50] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-15 03:02:26] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-15 03:03:02] Joining segment hits
+[2017-01-15 03:05:50] Reporting output tracks
+-----------------------------------------------
+[2017-01-15 03:13:28] A summary of the alignment counts can be found in ./Ctrl_D6/IP//align_summary.txt
+[2017-01-15 03:13:28] Run complete: 01:26:26 elapsed
+mES_m6A-seq_SetD2-KD_D0_input.fastq
+
+[2017-01-15 03:15:08] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-15 03:15:08] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-15 03:15:08] Checking for Bowtie index files (genome)..
+[2017-01-15 03:15:08] Checking for reference FASTA file
+[2017-01-15 03:15:08] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-15 03:15:12] Reading known junctions from GTF file
+[2017-01-15 03:15:39] Preparing reads
+	 left reads: min. length=50, max. length=50, 27118195 kept reads (15738 discarded)
+[2017-01-15 03:21:55] Building transcriptome data files ./SetD2-KD_D0/input//tmp/gencode.vM9.annotation
+[2017-01-15 03:22:50] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-15 03:48:49] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-15 04:13:51] Resuming TopHat pipeline with unmapped reads
+[2017-01-15 04:13:52] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-15 04:24:02] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-15 04:26:39] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-15 04:29:12] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-15 04:41:20] Retrieving sequences for splices
+[2017-01-15 04:43:47] Indexing splices
+Building a SMALL index
+[2017-01-15 04:44:51] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-15 04:45:35] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-15 04:46:28] Joining segment hits
+[2017-01-15 04:50:06] Reporting output tracks
+-----------------------------------------------
+[2017-01-15 05:01:50] A summary of the alignment counts can be found in ./SetD2-KD_D0/input//align_summary.txt
+[2017-01-15 05:01:50] Run complete: 01:46:41 elapsed
+mES_m6A-seq_SetD2-KD_D0_IP.fastq
+
+[2017-01-15 05:03:20] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-15 05:03:20] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-15 05:03:20] Checking for Bowtie index files (genome)..
+[2017-01-15 05:03:20] Checking for reference FASTA file
+[2017-01-15 05:03:20] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-15 05:03:24] Reading known junctions from GTF file
+[2017-01-15 05:03:52] Preparing reads
+	 left reads: min. length=50, max. length=50, 23721433 kept reads (9069 discarded)
+[2017-01-15 05:09:17] Building transcriptome data files ./SetD2-KD_D0/IP//tmp/gencode.vM9.annotation
+[2017-01-15 05:10:04] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-15 05:31:19] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-15 05:55:07] Resuming TopHat pipeline with unmapped reads
+[2017-01-15 05:55:07] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-15 06:03:59] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-15 06:05:42] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-15 06:07:35] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-15 06:17:53] Retrieving sequences for splices
+[2017-01-15 06:20:22] Indexing splices
+Building a SMALL index
+[2017-01-15 06:21:27] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-15 06:22:06] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-15 06:22:55] Joining segment hits
+[2017-01-15 06:26:30] Reporting output tracks
+-----------------------------------------------
+[2017-01-15 06:35:14] A summary of the alignment counts can be found in ./SetD2-KD_D0/IP//align_summary.txt
+[2017-01-15 06:35:14] Run complete: 01:31:53 elapsed
+mES_m6A-seq_SetD2-KD_D6_input.fastq
+
+[2017-01-15 06:36:34] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-15 06:36:34] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-15 06:36:34] Checking for Bowtie index files (genome)..
+[2017-01-15 06:36:34] Checking for reference FASTA file
+[2017-01-15 06:36:34] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-15 06:36:38] Reading known junctions from GTF file
+[2017-01-15 06:37:11] Preparing reads
+	 left reads: min. length=50, max. length=50, 25665552 kept reads (4796 discarded)
+[2017-01-15 06:41:50] Building transcriptome data files ./SetD2-KD_D6/input//tmp/gencode.vM9.annotation
+[2017-01-15 06:42:33] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-15 07:05:17] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-15 07:35:17] Resuming TopHat pipeline with unmapped reads
+[2017-01-15 07:35:17] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-15 07:42:34] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-15 07:44:14] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-15 07:45:54] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-15 07:55:36] Retrieving sequences for splices
+[2017-01-15 07:58:07] Indexing splices
+Building a SMALL index
+[2017-01-15 07:58:39] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-15 07:59:22] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-15 08:00:00] Joining segment hits
+[2017-01-15 08:03:25] Reporting output tracks
+-----------------------------------------------
+[2017-01-15 08:12:26] A summary of the alignment counts can be found in ./SetD2-KD_D6/input//align_summary.txt
+[2017-01-15 08:12:26] Run complete: 01:35:51 elapsed
+mES_m6A-seq_SetD2-KD_D6_IP.fastq
+
+[2017-01-15 08:13:50] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2017-01-15 08:13:50] Checking for Bowtie
+		  Bowtie version:	 2.2.6.0
+[2017-01-15 08:13:50] Checking for Bowtie index files (genome)..
+[2017-01-15 08:13:50] Checking for reference FASTA file
+[2017-01-15 08:13:50] Generating SAM header for /public/genomes/mouse/mm10/bowtie2Index_UCSC/mm10
+[2017-01-15 08:13:53] Reading known junctions from GTF file
+[2017-01-15 08:14:20] Preparing reads
+	 left reads: min. length=50, max. length=50, 21440328 kept reads (4500 discarded)
+[2017-01-15 08:18:16] Building transcriptome data files ./SetD2-KD_D6/IP//tmp/gencode.vM9.annotation
+[2017-01-15 08:19:00] Building Bowtie index from gencode.vM9.annotation.fa
+[2017-01-15 08:45:08] Mapping left_kept_reads to transcriptome gencode.vM9.annotation with Bowtie2 
+[2017-01-15 09:11:36] Resuming TopHat pipeline with unmapped reads
+[2017-01-15 09:11:36] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-15 09:16:36] Mapping left_kept_reads.m2g_um_seg1 to genome mm10 with Bowtie2 (1/2)
+[2017-01-15 09:17:30] Mapping left_kept_reads.m2g_um_seg2 to genome mm10 with Bowtie2 (2/2)
+[2017-01-15 09:18:31] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-01-15 09:25:34] Retrieving sequences for splices
+[2017-01-15 09:27:39] Indexing splices
+Building a SMALL index
+[2017-01-15 09:28:10] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-01-15 09:28:46] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-01-15 09:29:24] Joining segment hits
+[2017-01-15 09:32:09] Reporting output tracks
+-----------------------------------------------
+[2017-01-15 09:38:38] A summary of the alignment counts can be found in ./SetD2-KD_D6/IP//align_summary.txt
+[2017-01-15 09:38:38] Run complete: 01:24:47 elapsed

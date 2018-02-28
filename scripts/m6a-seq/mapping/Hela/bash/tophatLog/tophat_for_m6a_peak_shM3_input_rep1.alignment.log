@@ -1,0 +1,37 @@
+nohup: ignoring input
+\n\n\n
+Hela_m6A-seq_shM3_input_rep1.fastq
+
+[2017-09-13 09:05:11] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2017-09-13 09:05:11] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2017-09-13 09:05:11] Checking for Bowtie index files (genome)..
+[2017-09-13 09:05:11] Checking for reference FASTA file
+	Warning: Could not find FASTA file /public/genomes/human/hg19/bowtie2Index_UCSC/hg19.fa
+[2017-09-13 09:05:11] Reconstituting reference FASTA file from Bowtie index
+  Executing: /public/zhoukr/softwares/bowtie2-legacy/bowtie2-inspect /public/genomes/human/hg19/bowtie2Index_UCSC/hg19 > /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/shM3/input_rep1//tmp/hg19.fa
+[2017-09-13 09:09:40] Generating SAM header for /public/genomes/human/hg19/bowtie2Index_UCSC/hg19
+[2017-09-13 09:09:44] Reading known junctions from GTF file
+[2017-09-13 09:10:58] Preparing reads
+	 left reads: min. length=50, max. length=50, 34203380 kept reads (6819 discarded)
+[2017-09-13 09:19:18] Building transcriptome data files /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/shM3/input_rep1//tmp/gencode.v24lift37.annotation
+[2017-09-13 09:29:51] Building Bowtie index from gencode.v24lift37.annotation.fa
+[2017-09-13 10:20:17] Mapping left_kept_reads to transcriptome gencode.v24lift37.annotation with Bowtie2 
+[2017-09-13 12:34:03] Resuming TopHat pipeline with unmapped reads
+[2017-09-13 12:34:03] Mapping left_kept_reads.m2g_um to genome hg19 with Bowtie2 
+[2017-09-13 12:47:35] Mapping left_kept_reads.m2g_um_seg1 to genome hg19 with Bowtie2 (1/2)
+[2017-09-13 12:53:44] Mapping left_kept_reads.m2g_um_seg2 to genome hg19 with Bowtie2 (2/2)
+[2017-09-13 12:59:30] Searching for junctions via segment mapping
+	Coverage-search algorithm is turned on, making this step very slow
+	Please try running TopHat again with the option (--no-coverage-search) if this step takes too much time or memory.
+[2017-09-13 13:11:15] Retrieving sequences for splices
+[2017-09-13 13:14:22] Indexing splices
+Building a SMALL index
+[2017-09-13 13:16:05] Mapping left_kept_reads.m2g_um_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2017-09-13 13:17:56] Mapping left_kept_reads.m2g_um_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2017-09-13 13:19:35] Joining segment hits
+[2017-09-13 13:22:56] Reporting output tracks
+-----------------------------------------------
+[2017-09-13 13:54:43] A summary of the alignment counts can be found in /data/zhoukr/hhl_setd2_m6a/Hela_m6A-seq/shM3/input_rep1//align_summary.txt
+[2017-09-13 13:54:43] Run complete: 04:49:31 elapsed

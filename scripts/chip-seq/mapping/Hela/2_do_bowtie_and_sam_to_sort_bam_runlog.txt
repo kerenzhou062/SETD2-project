@@ -1,0 +1,111 @@
+nohup: ignoring input
+Hela_ChIP-seq_shCont_input.fastq
+Time loading forward index: 00:00:04
+Time loading mirror index: 00:00:05
+End-to-end 2/3-mismatch full-index search: 00:03:36
+# reads processed: 32672278
+# reads with at least one reported alignment: 27882388 (85.34%)
+# reads that failed to align: 1563110 (4.78%)
+# reads with alignments suppressed due to -m: 3226780 (9.88%)
+Reported 27882388 alignments to 1 output stream(s)
+Time searching: 00:03:45
+Overall time: 00:03:45
+Hela_ChIP-seq_shCont_IP.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:05:47
+# reads processed: 48672576
+# reads with at least one reported alignment: 39670304 (81.50%)
+# reads that failed to align: 4321732 (8.88%)
+# reads with alignments suppressed due to -m: 4680540 (9.62%)
+Reported 39670304 alignments to 1 output stream(s)
+Time searching: 00:05:49
+Overall time: 00:05:49
+Hela_ChIP-seq_shM14_input.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:31
+# reads processed: 31027848
+# reads with at least one reported alignment: 26634006 (85.84%)
+# reads that failed to align: 1352838 (4.36%)
+# reads with alignments suppressed due to -m: 3041004 (9.80%)
+Reported 26634006 alignments to 1 output stream(s)
+Time searching: 00:03:33
+Overall time: 00:03:33
+Hela_ChIP-seq_shM14_IP.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:04:29
+# reads processed: 43020264
+# reads with at least one reported alignment: 37026264 (86.07%)
+# reads that failed to align: 1616595 (3.76%)
+# reads with alignments suppressed due to -m: 4377405 (10.18%)
+Reported 37026264 alignments to 1 output stream(s)
+Time searching: 00:04:31
+Overall time: 00:04:31
+Hela_ChIP-seq_shM3_input.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:31
+# reads processed: 32808287
+# reads with at least one reported alignment: 28042381 (85.47%)
+# reads that failed to align: 1572065 (4.79%)
+# reads with alignments suppressed due to -m: 3193841 (9.73%)
+Reported 28042381 alignments to 1 output stream(s)
+Time searching: 00:03:33
+Overall time: 00:03:33
+Hela_ChIP-seq_shM3_IP.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:04:02
+# reads processed: 35314431
+# reads with at least one reported alignment: 30156334 (85.39%)
+# reads that failed to align: 1719560 (4.87%)
+# reads with alignments suppressed due to -m: 3438537 (9.74%)
+Reported 30156334 alignments to 1 output stream(s)
+Time searching: 00:04:04
+Overall time: 00:04:04
+Hela_ChIP-seq_shSetD2_input.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:26
+# reads processed: 31335942
+# reads with at least one reported alignment: 26803857 (85.54%)
+# reads that failed to align: 1390039 (4.44%)
+# reads with alignments suppressed due to -m: 3142046 (10.03%)
+Reported 26803857 alignments to 1 output stream(s)
+Time searching: 00:03:28
+Overall time: 00:03:28
+Hela_ChIP-seq_shSetD2_IP.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:02:57
+# reads processed: 27708607
+# reads with at least one reported alignment: 23090755 (83.33%)
+# reads that failed to align: 1458707 (5.26%)
+# reads with alignments suppressed due to -m: 3159145 (11.40%)
+Reported 23090755 alignments to 1 output stream(s)
+Time searching: 00:02:59
+Overall time: 00:02:59
+Hela_ChIP-seq_shWTAP_input.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:02:31
+# reads processed: 22315015
+# reads with at least one reported alignment: 18869212 (84.56%)
+# reads that failed to align: 1234617 (5.53%)
+# reads with alignments suppressed due to -m: 2211186 (9.91%)
+Reported 18869212 alignments to 1 output stream(s)
+Time searching: 00:02:33
+Overall time: 00:02:33
+Hela_ChIP-seq_shWTAP_IP.fastq
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:02:38
+# reads processed: 27424460
+# reads with at least one reported alignment: 22986215 (83.82%)
+# reads that failed to align: 1631809 (5.95%)
+# reads with alignments suppressed due to -m: 2806436 (10.23%)
+Reported 22986215 alignments to 1 output stream(s)
+Time searching: 00:02:40
+Overall time: 00:02:40

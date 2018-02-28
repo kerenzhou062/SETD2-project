@@ -1,0 +1,23 @@
+nohup: ignoring input
+HepG2_ChIP-seq_shSetD2_input.fastq
+Time loading forward index: 00:01:25
+Time loading mirror index: 00:01:28
+End-to-end 2/3-mismatch full-index search: 00:21:37
+# reads processed: 97754940
+# reads with at least one reported alignment: 83030777 (84.94%)
+# reads that failed to align: 5543807 (5.67%)
+# reads with alignments suppressed due to -m: 9180356 (9.39%)
+Reported 83030777 alignments to 1 output stream(s)
+Time searching: 00:24:30
+Overall time: 00:24:30
+HepG2_ChIP-seq_shSetD2_IP.fastq
+Time loading forward index: 00:02:20
+Time loading mirror index: 00:01:54
+End-to-end 2/3-mismatch full-index search: 00:21:41
+# reads processed: 85047263
+# reads with at least one reported alignment: 63042220 (74.13%)
+# reads that failed to align: 14335492 (16.86%)
+# reads with alignments suppressed due to -m: 7669551 (9.02%)
+Reported 63042220 alignments to 1 output stream(s)
+Time searching: 00:25:55
+Overall time: 00:25:55

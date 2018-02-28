@@ -46,6 +46,8 @@ macs2 callpeak --broad -B -g hs -t IP_rep1.fastq.sorted.bam IP_rep2.fastq.rep2.b
 ```bash
 # fold change of intersected peaks
 log2(FC) = log2((shSetd2+0.1) / (shCont+0.1))
+# cutoff for Setd2-responsive sites
+log2(FC) < log2(0.5)
 
 # related bash scripts
 *chip-seq_FC.sh

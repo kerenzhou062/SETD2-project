@@ -163,7 +163,23 @@ awk 'BEGIN{OFS="\t";};{ if(NR>1){ cutoff=1/2;if($16<cutoff){ gsub(/\.[0-9]+/,"" 
 awk 'BEGIN{OFS="\t";};{ if(NR>1){ cutoff=1/2;if($17<cutoff){ gsub(/\.[0-9]+/,"" ,$4);print $4"-"NR; } } }' HepG2_m6a_peak_FC.txt | sort | uniq > ./HepG2_shWTAP_FC_gene.txt
 
 ```
+
 Then we used VennDiagram R package (codes in Rscripts/HepG2/draw_venn.r) to draw Venn plots.
+
+## Cumulative plots of writer-repsonsive sites ##
+We gernerate responsive sites based on peak_FC.txt.
+```bash
+#using cumulativePlot.pl
+awk '{if(NR>1){cutoff=log(0.5)/log(2); if ($15 < cutoff) {print $14;}}}' HepG2_m6a_peak_FC_log2.txt > HepG2_shM14_FC_log2.txt
+awk '{if(NR>1){cutoff=log(0.5)/log(2); if ($16 < cutoff) {print $14;}}}' HepG2_m6a_peak_FC_log2.txt > HepG2_shM3_FC_log2.txt
+awk '{if(NR>1){cutoff=log(0.5)/log(2); if ($17 < cutoff) {print $14;}}}' HepG2_m6a_peak_FC_log2.txt > HepG2_shWTAP_FC_log2.txt
+awk '{if(NR>1){cutoff=log(0.5)/log(2); if (($15 < cutoff)&&($16 < cutoff)&&($17 < cutoff)) {print $14;}}}' HepG2_m6a_peak_FC_log2.txt > HepG2_shareTargets_FC_log2.txt
+awk '{if(NR>1){cutoff=log(0.5)/log(2); if (($15 >= cutoff)&&($16 >= cutoff)&&($17 >= cutoff)) {print $14;}}}' HepG2_m6a_peak_FC_log2.txt > HepG2_nonTargets_FC_log2.txt
+
+cumulativePlot.pl -header false -interval 0.01 --input HepG2_shM14_FC_log2.txt HepG2_shM3_FC_log2.txt HepG2_shWTAP_FC_log2.txt HepG2_shareTargets_FC_log2.txt HepG2_nonTargets_FC_log2.txt -o HepG2_cumulativePlot.txt
+sed -i '1i FC\tshM14\tshM3\tshWTAP\tshare\tnonTarget' HepG2_cumulativePlot.txt
+
+```
 
 ## Circos plot ##
 We used circos.pl to draw circos plot. The coordinates of exomePeak results (in bed12 format) and their corresonding values of fold Encichment were adopted as the genomic intervals and corresponding values.

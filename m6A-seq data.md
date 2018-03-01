@@ -1,4 +1,4 @@
-The data processing procedure for m6A-seq data were as listed below:
+The data processing procedure for m6A-seq data were listed as  below:
 
 ---
 ## Check sequencing reads qualities ##
@@ -162,6 +162,8 @@ awk 'BEGIN{OFS="\t";};{ if(NR>1){ cutoff=1/2;if($15<cutoff){ gsub(/\.[0-9]+/,"" 
 awk 'BEGIN{OFS="\t";};{ if(NR>1){ cutoff=1/2;if($16<cutoff){ gsub(/\.[0-9]+/,"" ,$4);print $4"-"NR; } } }' HepG2_m6a_peak_FC.txt | sort | uniq > ./HepG2_shM3_FC_gene.txt
 awk 'BEGIN{OFS="\t";};{ if(NR>1){ cutoff=1/2;if($17<cutoff){ gsub(/\.[0-9]+/,"" ,$4);print $4"-"NR; } } }' HepG2_m6a_peak_FC.txt | sort | uniq > ./HepG2_shWTAP_FC_gene.txt
 
+#related bash scripts
+*m6A-seq_FC_Venn.sh
 ```
 
 Then we used VennDiagram R package (codes in Rscripts/HepG2/draw_venn.r) to draw Venn plots.
@@ -179,6 +181,8 @@ awk '{if(NR>1){cutoff=log(0.5)/log(2); if (($15 >= cutoff)&&($16 >= cutoff)&&($1
 cumulativePlot.pl -header false -interval 0.01 --input HepG2_shM14_FC_log2.txt HepG2_shM3_FC_log2.txt HepG2_shWTAP_FC_log2.txt HepG2_shareTargets_FC_log2.txt HepG2_nonTargets_FC_log2.txt -o HepG2_cumulativePlot.txt
 sed -i '1i FC\tshM14\tshM3\tshWTAP\tshare\tnonTarget' HepG2_cumulativePlot.txt
 
+#related bash scripts
+*m6A-seq_FC_cumulative.sh
 ```
 
 ## Circos plot ##
@@ -251,7 +255,7 @@ circos -conf histogram.FC.conf > /dev/null 2>&1
 rm -f histogram.partial.FC.svg histogram.FC.svg
 
 #related bash scrits
-*circos_bin.sh
+*m6A-seq_circos_bin.sh
 
 ```
 

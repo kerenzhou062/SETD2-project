@@ -1,4 +1,4 @@
-The data processing procedure for ChIP-seq data were as listed below:
+The data processing procedure for ChIP-seq data were listed as below:
 
 ---
 ## Check sequencing reads qualities ##

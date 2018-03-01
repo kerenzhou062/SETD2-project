@@ -23,5 +23,7 @@ featureCounts -T 10 -a gencode.v24lift37.annotation.gtf -g gene_id -F GTF -t gen
   input1.bam input2.bam ...
    > /dev/null 2>&1
 
+#related bash scripts
+*DEGseq.sh
 ```
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 HepG2_H3K36me3=/data/zhoukr/hhl_setd2_m6a/analysis/chip-seq/HepG2/bed6/HepG2_macs_shCont_peaks.bed
-chipseq=/data/zhoukr/hhl_setd2_m6a/others/encode/
+chipseq=/data/zhoukr/hhl_setd2_m6a/others/encode/HepG2
 bed12Path=/data/zhoukr/hhl_setd2_m6a/analysis/m6a-seq/HepG2/bed12
 path=/data/zhoukr/hhl_setd2_m6a/analysis/m6a-seq/HepG2/heterochomatin
 statsFile=$path/heterochomatin_m6a_stats.txt
@@ -57,5 +57,5 @@ echo -e "HepG2_H3K36me3_in_house\tH3K27me3_GENCODE\t$num" >> $statsFile
 #rm -f heatmap.m6A_H3K9me3.svg
 #
 #circos -conf heatmap.m6A_H3K9me3_partial.conf > /dev/null 2>&1
-#rm -f heatmap.m6A_H3K9me3_partial.svg
+#rm -f heatmap.m6A_H3K9me3.svg heatmap.m6A_H3K9me3_partial.svg
 
